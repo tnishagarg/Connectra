@@ -8,13 +8,6 @@ app.listen(2024, function () {
 app.use(express.static("public"));
 app.use(express.urlencoded("true"));
 app.use(fileuploader());
-// let config = {
-//     host: "127.0.0.1",
-//     user: "root",
-//     password: "Tni#1607sha@garg",
-//     database: "project",
-//     dateStrings: true
-// }
 let config = {
     host: "bmirvdrfrmu1yyxmeswf-mysql.services.clever-cloud.com",
     user: "upkgzupmwru4uwnk",
