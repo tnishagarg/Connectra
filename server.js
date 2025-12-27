@@ -9,10 +9,10 @@ app.use(express.static("public"));
 app.use(express.urlencoded("true"));
 app.use(fileuploader());
 let config = {
-    host: "bmirvdrfrmu1yyxmeswf-mysql.services.clever-cloud.com",
-    user: "upkgzupmwru4uwnk",
-    password: "7ERSUE2LXJJgzmaOBWA5",
-    database: "bmirvdrfrmu1yyxmeswf",
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
     dateStrings: true,
     keepAliveInitialDelay:10000,
     enableKeepAlive:true,
