@@ -86,7 +86,7 @@ Clients can search, discover, and connect with suitable influencers for promotio
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/tnishagarg/Connectra.git
@@ -97,19 +97,19 @@ npm start
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 https://connectra-qg8r.onrender.com
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Tnisha Garg**  
 B.Tech Computer Engineering, Thapar University
 
 ---
 
-## 📄 License
+## License
 
 This project is developed for educational purposes.
