@@ -66,12 +66,9 @@ Clients can search, discover, and connect with suitable influencers for promotio
 
 ## Screenshots
 
-```markdown
 ![Home Page](screenshots/home.png)
 ![Influencer Dashboard](screenshots/influencer_dashboard.png)
 ![Client Dashboard](screenshots/client_dashboard.png)
-![Find Influencers](screenshots/find_influencer.png)
-```
 
 ---
 
