@@ -66,8 +66,6 @@ Clients can search, discover, and connect with suitable influencers for promotio
 
 ## Screenshots
 
-## Screenshots
-
 ### Home Page
 
 ![Home Page](screenshots/home.png)
