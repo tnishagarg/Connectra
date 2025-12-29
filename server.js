@@ -1,3 +1,4 @@
+require("dotenv").config();
 var express = require("express");
 var mysql2 = require("mysql2");
 var fileuploader = require("express-fileupload");
@@ -43,13 +44,13 @@ app.get("/signup-process", function (req, resp) {
                 secure: true,
                 port: 465,
                 auth: {
-                    user: 'tgarg1607@gmail.com',
-                    pass: "fmpr lrpw pgbw ogxb",
+                        user: process.env.EMAIL_USER,
+                        pass: process.env.EMAIL_PASS,
                 }
             });
 
             var mailOptions = {
-                from: 'tgarg1607@gmail.com',
+                from: process.env.EMAIL_USER,
                 to: to,
                 subject: 'Welcome',
                 text: "Welcome to Connectra!! Thanks for signing up..",
@@ -180,13 +181,13 @@ app.get("/mailsend", function (req, resp) {
                 secure: true,
                 port: 465,
                 auth: {
-                    user: 'tgarg1607@gmail.com',
-                    pass: "fmpr lrpw pgbw ogxb",
-                }
+                        user: process.env.EMAIL_USER,
+                        pass: process.env.EMAIL_PASS,
+}
             });
 
             var mailOptions = {
-                from: 'tgarg1607@gmail.com',
+                from: process.env.EMAIL_USER,
                 to: to,
                 subject: 'Forgot password?',
                 text: "your password is " + result[0].pwd,
