@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^4.19.2",
     "express-fileupload": "^1.5.0",
     "express-fileuploader": "^0.0.7",
